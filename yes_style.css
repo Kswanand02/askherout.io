@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(189, 225, 122);
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.gif_container {
+    margin-top: 20px;
+}
+
+#calendar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.datePicker {
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
